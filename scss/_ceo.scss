@@ -19,7 +19,7 @@
       display: block;
     }
     .container {
-      padding: 0;
+      padding: -15px;
     }
   }
   .container {
@@ -29,7 +29,11 @@
     }
   }
   .ceo-info {
-    background: url("../img/ceo/ceo-info-bg.png") no-repeat -50%;
+    background: url("../img/ceo/ceo-info-bg.png") no-repeat 10% 200%;
     background-size: 50%;
+    .about-ceo,
+    .work-position {
+      padding: 0 15px;
+    }
   }
 }

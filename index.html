@@ -7,9 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Crios</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <!-- <link rel="stylesheet" href="./css/normalize.css">
-  <link rel="stylesheet" href="./css/fonts.css">
-  <link rel="stylesheet" href="./css/bootstrap-grid.css"> -->
+  <script src="https://kit.fontawesome.com/d69b73e7aa.js"></script>
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -17,9 +15,20 @@
   <div class="wrapper">
 
     <nav>
-      <div class="nav-menu">burger</div>
-      <div class="nav-logo">logo</div>
-      <div class="nav-search">search</div>
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="nav-menu">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="nav-logo">
+            <h2>crios</h2>
+          </div>
+          <div class="nav-search">
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+      </div>
+
     </nav>
 
 
@@ -37,8 +46,13 @@
       </div>
 
       <!-- header btn -->
-      <div class="row header-btn justify-content-center">
-        <button type="button" value="check our offer">explore template</button>
+      <div class="header-btn">
+        <div class="container">
+          <div class="row justify-content-center">
+            <button type="button" value="check our offer">explore template</button>
+          </div>
+        </div>
+
       </div>
 
       <!-- horse img -->
@@ -67,7 +81,7 @@
           <!-- 1 offer -->
           <div class="row offers-types">
             <div class="col-sm-12 col-md-6 col-lg-3">
-              <div class="row justify-content-center">
+              <div class="row justify-content-center flex-column align-items-center">
                 <picture>
                   <source type="image/webp" srcset="./img/offer/offer-img-1.webp">
                   <source type="image/png" srcset="./img/offer/offer-img-1.png">
@@ -79,7 +93,7 @@
             </div>
             <!-- 2 offer -->
             <div class="col-sm-12 col-md-6 col-lg-3">
-              <div class="row justify-content-center">
+              <div class="row justify-content-center flex-column align-items-center">
                 <picture>
                   <source type="image/webp" srcset="./img/offer/offer-img-2.webp">
                   <source type="image/png" srcset="./img/offer/offer-img-2.png">
@@ -91,7 +105,7 @@
             </div>
             <!-- 3 offer -->
             <div class="col-sm-12 col-md-6 col-lg-3">
-              <div class="row justify-content-center">
+              <div class="row justify-content-center flex-column align-items-center">
                 <picture>
                   <source type="image/webp" srcset="./img/offer/offer-img-3.webp">
                   <source type="image/png" srcset="./img/offer/offer-img-3.png">
@@ -103,7 +117,7 @@
             </div>
             <!-- 4 offer -->
             <div class="col-sm-12 col-md-6 col-lg-3">
-              <div class="row justify-content-center">
+              <div class="row justify-content-center flex-column align-items-center">
                 <picture>
                   <source type="image/webp" srcset="./img/offer/offer-img-4.webp">
                   <source type="image/png" srcset="./img/offer/offer-img-4.png">
@@ -279,11 +293,36 @@
           </div>
         </div>
       </aside>
+
+      <footer>
+        <!-- happy-end -->
+        <aside class="happy-end">
+          <!-- happy-end info -->
+          <div class="happy-end-info">
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. kopia</h3>
+            <h2>Lorem ipsum dolor sit amet</h2>
+          </div>
+          <!-- happy-end btn -->
+          <div class="happy-end-btn">
+            <div class="container">
+              <div class="row justify-content-center">
+                <button type="button" value="check our offer">symu.co/freebies</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="happy-end-img d-flex justify-content-center">
+            <picture>
+              <source type="image/webp" srcset="./img/happy-end/happy-end-img.webp">
+              <source type="image/png" srcset="./img/happy-end/happy-end-img.png">
+              <img class="img-fluid" src="./img/happy-end/happy-end-img.png" alt="headre img">
+            </picture>
+          </div>
+
+        </aside>
     </main>
-
-
   </div>
-  <footer>gege</footer>
+  </footer>
 
   <script src="./js/snowing.js"></script>
   <script src="./js/main.js"></script>

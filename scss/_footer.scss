@@ -1,0 +1,14 @@
+.happy-end-btn {
+  @extend .offers-btn;
+}
+.happy-end-info {
+  h3 {
+    color: #4b5863;
+    opacity: 0.25;
+  }
+}
+.happy-end-img {
+  picture {
+    display: block;
+  }
+}
