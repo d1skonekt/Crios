@@ -1,0 +1,26 @@
+.first-screen-app,
+.second-screen-app {
+  display: flex;
+  .screen-img,
+  .screen-info {
+    width: 50%;
+  }
+  .screen-img {
+    picture {
+      line-height: 0;
+      display: block;
+    }
+  }
+}
+.first-screen-app {
+  .screen-img {
+    background: url("../img/apps/app-bg-1.png") no-repeat top left;
+    background-size: contain;
+  }
+}
+.second-screen-app {
+  .screen-img {
+    background: url("../img/apps/app-bg-2.png") no-repeat bottom right;
+    background-size: contain;
+  }
+}

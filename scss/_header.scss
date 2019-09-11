@@ -1,0 +1,9 @@
+.header-btn {
+  @extend .offers-btn;
+}
+.header-info {
+  h3 {
+    color: #4b5863;
+    opacity: 0.25;
+  }
+}

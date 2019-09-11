@@ -1,0 +1,35 @@
+.ceo {
+  h2,
+  h3,
+  p {
+    text-align: start;
+  }
+  h2 {
+    color: #fe3254;
+  }
+  display: flex;
+  background-color: #ecefff;
+  .ceo-img,
+  .ceo-info {
+    width: 50%;
+  }
+  .ceo-img {
+    picture {
+      line-height: 0;
+      display: block;
+    }
+    .container {
+      padding: 0;
+    }
+  }
+  .container {
+    height: 100%;
+    .row {
+      height: 100%;
+    }
+  }
+  .ceo-info {
+    background: url("../img/ceo/ceo-info-bg.png") no-repeat -50%;
+    background-size: 50%;
+  }
+}

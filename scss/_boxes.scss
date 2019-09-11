@@ -1,0 +1,17 @@
+.first-box,
+.second-box {
+  display: flex;
+  .box-img,
+  .box-info {
+    width: 50%;
+  }
+  .box-img {
+    picture {
+      line-height: 0;
+      display: block;
+    }
+  }
+  .box-info {
+    background-color: #ecefff;
+  }
+}
